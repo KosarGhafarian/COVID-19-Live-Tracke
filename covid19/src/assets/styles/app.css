@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik-Medium.ttf") format("ttf");
+}
+
+:root {
+  --main-color: #262c7c;
+}
+
+body {
+  margin: 0;
+  font-family: Graphik;
+}
