@@ -5,13 +5,118 @@ nav {
   width: 100%;
   height: 88px;
   border-bottom: 1px solid rgba(255, 255, 255, 13.42%);
+  position: relative;
+  z-index: 10;
 }
 
-img {
+.covid-19-logo {
   margin: 15px;
   margin-left: 100px;
 }
 
+.header {
+  height: calc(100% + 50rem);
+  position: absolute;
+  top: 4px;
+  width: 100%;
+}
+
+.header-title,
+.header-description {
+  display: block;
+  margin: 0;
+  position: absolute;
+  left: 87px;
+  font-style: normal;
+}
+
 .header-title {
-  font-family: "Graphik";
+  color: white;
+  width: fit-content;
+  height: 48px;
+  top: 252px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.header-description {
+  width: 440px;
+  height: 96px;
+  top: 334px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #bec1e0;
+}
+
+.emo-covid {
+  margin: 0;
+  position: relative;
+  left: 755px;
+  top: 162px;
+}
+
+.header-white-button {
+  background: inherit;
+  top: 514px;
+  width: 200px;
+  height: 44px;
+  border: 2px solid #fff;
+  left: 294px;
+}
+
+.header-white-button > *,
+.header-pink-button > * {
+  width: 24px;
+  height: 24px;
+}
+
+.header-pink-button {
+  background-color: var(--pink-color);
+  top: 514px;
+  width: 189px;
+  height: 44px;
+  left: 87px;
+  border: 0;
+}
+
+.status-part {
+  position: absolute;
+  width: 1168px;
+  height: 157px;
+  left: 60px;
+  top: 713px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(190, 193, 224, 0.320039);
+  border-radius: 10px;
+}
+
+.status-part * {
+  margin: 0;
+  padding: 0;
+}
+
+.status-part img {
+  width: 50px;
+  height: 50px;
+}
+
+.card-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #262c7c;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6468a1;
 }
