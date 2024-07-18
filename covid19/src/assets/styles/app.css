@@ -20,6 +20,7 @@ body,
 body * {
   margin: 0;
   font-family: Graphik;
+  font-style: normal;
 }
 
 .styled-button {
@@ -29,7 +30,6 @@ body * {
   align-items: center;
   justify-content: space-around;
   font-family: Graphik;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -42,4 +42,25 @@ body * {
 
 .green-text {
   color: var(--green-color);
+}
+
+.footer {
+  display: grid;
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: 0;
+  top: calc(100% + 80rem);
+  left: 0;
+  right: 0;
+  height: fit-content;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: #fff;
 }
