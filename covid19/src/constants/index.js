@@ -21,6 +21,7 @@ export const HeaderCard = [
     additionalData: {
       icon: TrendingUpRed,
       rate: "95%",
+      redText: true,
     },
   },
   {
@@ -31,6 +32,7 @@ export const HeaderCard = [
     additionalData: {
       icon: TrendingDownGreen,
       rate: "79%",
+      redText: false,
     },
   },
   {
@@ -41,6 +43,7 @@ export const HeaderCard = [
     additionalData: {
       icon: TrendingUpRed,
       rate: "21%",
+      redText: true,
     },
   },
 ];
