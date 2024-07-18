@@ -10,9 +10,14 @@
 :root {
   --main-color: #262c7c;
   --pink-color: #eb0065;
+  --light-main-color: #6468a1;
+  --ice-color: #bec1e0;
+  --red-color: #ff3e29;
+  --green-color: #00db75;
 }
 
-body {
+body,
+body * {
   margin: 0;
   font-family: Graphik;
 }
@@ -29,4 +34,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #ebf2ff;
+}
+
+.red-text {
+  color: var(--red-color);
+}
+
+.green-text {
+  color: var(--green-color);
 }

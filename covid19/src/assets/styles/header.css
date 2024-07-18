@@ -31,7 +31,7 @@ nav {
 }
 
 .header-title {
-  color: white;
+  color: #fff;
   width: fit-content;
   height: 48px;
   top: 252px;
@@ -50,7 +50,7 @@ nav {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  color: #bec1e0;
+  color: var(--ice-color);
 }
 
 .emo-covid {
@@ -96,7 +96,6 @@ nav {
 }
 
 .status-part * {
-  margin: 0;
   padding: 0;
 }
 
@@ -110,7 +109,7 @@ nav {
   font-weight: 500;
   font-size: 24px;
   line-height: 40px;
-  color: #262c7c;
+  color: var(--main-color);
 }
 
 .card-title {
@@ -118,5 +117,5 @@ nav {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #6468a1;
+  color: var(--light-main-color);
 }
