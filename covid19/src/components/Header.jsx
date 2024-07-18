@@ -1,14 +1,17 @@
 import { HeaderCard } from "../constants";
+
 import Covid from "../assets/images/Covid.svg";
 import HeaderBackground from "../assets/images/HeaderBackground.svg";
+
 import "../assets/styles/header.css";
+
 import Navbar from "./Navbar";
 import Button from "./Button";
 import CardBox from "./CardBox";
 
 const Header = () => {
   return (
-    <>
+    <div className="grid">
       <Navbar />
       <div
         style={{ backgroundImage: `url(${HeaderBackground})` }}
@@ -55,7 +58,7 @@ const Header = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

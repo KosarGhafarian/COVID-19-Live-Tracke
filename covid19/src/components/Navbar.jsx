@@ -1,5 +1,3 @@
-import React from "react";
-
 import Logo from "../assets/images/covid-19-logo.png";
 
 const Navbar = () => {
