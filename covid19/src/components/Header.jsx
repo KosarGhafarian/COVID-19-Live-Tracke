@@ -4,8 +4,8 @@ import Covid from "../assets/images/Covid.svg";
 import HeaderBackground from "../assets/images/HeaderBackground.svg";
 
 import "../assets/styles/header.css";
+import Logo from "../assets/images/covid-19-logo.png";
 
-import Covid19Logo from "./Covid19Logo";
 import Button from "./Button";
 import CardBox from "./CardBox";
 
@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className="grid">
       <nav>
-        <Covid19Logo />
+        <img src={Logo} alt="covid-19-logo" className="covid-19-logo" />
       </nav>
       <div
         style={{ backgroundImage: `url(${HeaderBackground})` }}

@@ -5,6 +5,8 @@
 @font-face {
   font-family: "Graphik";
   src: url("../fonts/Graphik-Medium.ttf") format("ttf");
+  font-family: "GraphikLight";
+  src: url("../fonts/GraphikCompact-Extralight-Trial.otf") format("otf");
 }
 
 :root {
@@ -42,25 +44,4 @@ body * {
 
 .green-text {
   color: var(--green-color);
-}
-
-.footer {
-  display: grid;
-  background-color: var(--main-color);
-  position: absolute;
-  bottom: 0;
-  top: calc(100% + 80rem);
-  left: 0;
-  right: 0;
-  height: fit-content;
-}
-
-.copyright {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0 auto;
-  color: #fff;
 }
